@@ -1,7 +1,7 @@
 {
   "homepage": "https://myeduweb.github.io/myproject",
   "name": "mypro",
-  "version": "0.1.0",
+  "versgition": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
