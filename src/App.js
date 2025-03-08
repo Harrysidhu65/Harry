@@ -1,17 +1,19 @@
 
 import Home from "./components/home";
 
-import {Route, Routes, BrowserRouter } from 'react-router-dom';
+import {Route, Routes, BrowserRouter, HashRouter } from 'react-router-dom';
 import React from 'react';
 import Layout from "./components/layout";
 import About from "./components/about";
 import Service from "./components/service";
 import Contact from "./components/contact";
+import { HashRouter as Router } from "react-router-dom";
+
 function App() {
   
   return (
     <main>
-       <BrowserRouter>
+       <HashRouter>
         <Routes>
            <Route path="/" element={<Layout/>}>
             <Route index element={<Home />} />
@@ -20,7 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact/>} />
            </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
       </main>
   );
 }
