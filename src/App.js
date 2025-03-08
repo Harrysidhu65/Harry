@@ -1,13 +1,11 @@
 
 import Home from "./components/home";
-
-import {Route, Routes, BrowserRouter, HashRouter } from 'react-router-dom';
 import React from 'react';
 import Layout from "./components/layout";
 import About from "./components/about";
 import Service from "./components/service";
 import Contact from "./components/contact";
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter as Route, Routes } from "react-router-dom";
 
 function App() {
   
