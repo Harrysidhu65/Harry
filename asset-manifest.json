@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Harry/static/css/main.e1b5562c.css",
+    "main.js": "/Harry/static/js/main.78fa6b53.js",
+    "static/media/business-management.jpg": "/Harry/static/media/business-management.4b0c955c76d63be2d130.jpg",
+    "index.html": "/Harry/index.html",
+    "main.e1b5562c.css.map": "/Harry/static/css/main.e1b5562c.css.map",
+    "main.78fa6b53.js.map": "/Harry/static/js/main.78fa6b53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1b5562c.css",
+    "static/js/main.78fa6b53.js"
+  ]
+}
